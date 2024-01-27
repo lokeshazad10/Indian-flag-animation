@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-sizing: border-box;
+}
+.orange{
+    background-color: orangered;
+    height: 33.33vh;
+    animation: animate 2s ease-in 0.5s 1 normal;
+}
+.white{
+    background-color: white;
+    height: 33.33vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation: animate 2s ease-in 0.5s 1 normal;
+}
+.green{
+    background-color: green;
+    height: 33.33vh;
+    animation: animate 2s ease-in 0.5s 1 normal;
+}
+#indian-chakra{
+    background: transparent;
+    height: 32vh;
+    mix-blend-mode: multiply;
+}
+
+@keyframes animate {
+    0%{
+        width: 20vw;
+    }
+    100%{
+        width: 100vw;
+    }
+    
+    
+}
